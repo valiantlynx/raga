@@ -36,6 +36,9 @@ PRs and suggestions are welcome! 😄
 **Local**
 
 `bun run dev`
+`npm run dev`
+`yarn dev`
+etc 
 
 **Build**
 
