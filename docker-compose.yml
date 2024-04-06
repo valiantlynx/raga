@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  valiantos:
+    container_name: valiantos
+    build:
+      context: .
+      dockerfile: Dockerfile.solo
+    restart: always
+    ports:
+      - 3001:3000
+    networks:
+      - valiantlynx-turborepo
+
+# Define a network, which allows containers to communicate
+# with each other, by using their container name as a hostname
+networks:
+  valiantlynx-turborepo:
+    external: false
