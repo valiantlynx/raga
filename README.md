@@ -3,7 +3,7 @@
 <h1 align="center">raga</h1>
 
 A libre frontend for JioSaavn.
-
+This is a Fork of [raga](https://github.com/TheoIsDumb/raga).
 Powered by SvelteKit. ⚡
 
 PS: Thanks for the name, [v8v88v8v88](https://github.com/v8v88v8v88)!

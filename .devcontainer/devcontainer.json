@@ -1,7 +1,7 @@
 {
-  "name": "valiantos-dev",
+  "name": "raga-dev",
   "dockerComposeFile": ["../docker-compose.dev.yml"],
-  "service": "valiantos-dev",
+  "service": "raga-dev",
   "workspaceFolder": "/app",
   "customizations": {
     "vscode": {

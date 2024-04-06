@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "valiantos-terraform"
+    bucket = "raga-terraform"
     key    = "dev/terraform.tfstate"
     region = "eu-north-1"
   }

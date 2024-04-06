@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-  valiantos:
-    container_name: valiantos
+  raga:
+    container_name: raga
     build:
       context: .
       dockerfile: Dockerfile.solo

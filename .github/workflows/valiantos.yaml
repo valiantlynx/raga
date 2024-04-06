@@ -1,6 +1,6 @@
-name: valiantos
+name: raga
 
-run-name: ${{ github.actor }} is building valiantos image 📷
+run-name: ${{ github.actor }} is building raga image 📷
 
 on:
   push:
@@ -21,7 +21,7 @@ on:
 
 jobs:
   build-and-push-images:
-    name: Build valiantos
+    name: Build raga
     runs-on: ubuntu-latest
     permissions:
       packages: write
@@ -69,8 +69,8 @@ jobs:
       uses: docker/metadata-action@v3
       with:
         images: |
-          ${{ secrets.DOCKER_HUB_USERNAME }}/valiantos
-          ghcr.io/${{ secrets.DOCKER_HUB_USERNAME }}/valiantos
+          ${{ secrets.DOCKER_HUB_USERNAME }}/raga
+          ghcr.io/${{ secrets.DOCKER_HUB_USERNAME }}/raga
         flavor: |
           latest=false
         tags: |

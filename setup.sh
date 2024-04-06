@@ -1,3 +1,3 @@
-git subtree add --prefix=apps/valiantos https://github.com/valiantlynx/valiantos.git main --squash
-git subtree pull --prefix=apps/valiantos https://github.com/valiantlynx/valiantos.git main --squash
-git subtree push --prefix=apps/valiantos https://github.com/valiantlynx/valiantos.git main
+git subtree add --prefix=apps/raga https://github.com/valiantlynx/raga.git main --squash
+git subtree pull --prefix=apps/raga https://github.com/valiantlynx/raga.git main --squash
+git subtree push --prefix=apps/raga https://github.com/valiantlynx/raga.git main

@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy container app to Azure Web App - valiantos
+name: Build and deploy container app to Azure Web App - raga
 
 on:
   repository_dispatch:
@@ -20,7 +20,7 @@ jobs:
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'valiantos'
+        app-name: 'raga'
         slot-name: 'production'
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
-        images: 'index.docker.io/${{ secrets.DOCKER_HUB_USERNAME }}/valiantos:commit-${{ github.sha }}'
+        images: 'index.docker.io/${{ secrets.DOCKER_HUB_USERNAME }}/raga:commit-${{ github.sha }}'

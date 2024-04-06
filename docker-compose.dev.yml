@@ -1,6 +1,6 @@
 version: "3.8"
 services:
-  valiantos-dev:
+  raga-dev:
     build:
       context: .
       dockerfile: Dockerfile.dev # Point to the development Dockerfile
